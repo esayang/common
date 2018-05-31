@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="download">下载</string>
+    <string name="network_unenable">网络不给力，请检查下网络</string>
+    <string name="loading">加载中…</string>
+    <string name="load_error">网络出错</string>
+
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+
+    <string name="more_data">加载中…</string>
+    <string name="net_error">加载失败，点击重试</string>
+
+    <string name="app_update_progress">正在下载</string>
+    <string name="app_update_commplete">下载成功</string>
+    <string name="app_update_failed">下载失败，建议在wifi下更新！</string>
+    <string name="image_download_success">成功下载到相册</string>
+</resources>

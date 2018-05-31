@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/lay_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.centanet.centalib.widget.ProgressWheel
+            android:id="@+id/mProgressWheel"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            wheel:barColor="#999999"
+            wheel:barWidth="2dp"
+            wheel:progressIndeterminate="true" />
+
+        <TextView
+            android:id="@+id/mTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/more_data"
+            android:textColor="#999999"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mNetError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/net_error"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</FrameLayout>

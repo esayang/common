@@ -1,0 +1,7 @@
+<resources>
+    <style name="LibTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+</resources>

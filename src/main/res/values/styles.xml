@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LibTheme" parent="BaseAppTheme" />
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuTextAppearance</item>
+        <item name="android:windowAnimationStyle">@style/animationActivity</item>
+    </style>
+
+    <style name="actionMenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BlackStatusBarTheme" parent="LibTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="animationActivity" parent="android:Theme.Light">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+        <item name="android:taskOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:taskOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:taskCloseEnterAnimation">@anim/push_left_in</item>
+        <item name="android:taskCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="AppWelcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/start_page</item>
+    </style>
+
+
+</resources>

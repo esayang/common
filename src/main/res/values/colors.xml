@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#e14756</color>
+    <color name="colorPrimaryDark">#b42f3c</color>
+    <color name="colorAccent">#e14756</color>
+
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+
+    <color name="orange">#ff9800</color>
+    <color name="pink">#f06292</color>
+
+    <color name="appThemeColor">#fc4507</color>
+    <color name="half_transparent">#e0000000</color>
+    <color name="background_tab_pressed">#00000000</color>
+    <color name="app_background">#f0eff5</color>
+    <color name="black_light">#999999</color>
+    <color name="black_medium">#666666</color>
+    <color name="black_dark">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="white60">#99ffffff</color>
+    <color name="lv_blur_bg">#EDEDED</color>
+    <color name="black_translucent_m">#c000</color>
+    <color name="gray">#777777</color>
+    <color name="dark_gray">#555555</color>
+    <color name="light_gray">#ddd</color>
+    <color name="translucent">#00000000</color>
+    <color name="hintColor">#CFCFCF</color>
+    <color name="shake_bgcolor">#2E3132</color>
+
+    <color name="color_red_status">#d60521</color>
+    <color name="text_color_white">@color/white</color>
+    <color name="text_color_main">#333333</color>
+    <color name="text_color_sub">#666666</color>
+    <color name="ripple_color">#77a3a1a1</color>
+    <color name="status_green_color">#1f9642</color>
+    <color name="text_color_sub_middle">#999999</color>
+    <color name="date_sign_status_ok">#5cb619</color>
+    <color name="sign_wait_approval">#fda900</color>
+    <color name="multiple_image_select_primaryDark">@color/colorPrimaryDark</color>
+    <color name="multiple_image_select_primary">@color/colorPrimary</color>
+
+    <color name="work_flow_status_bar_color">#3286c6</color>
+
+
+</resources>
